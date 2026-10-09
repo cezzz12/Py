@@ -1,0 +1,75 @@
+1. Graph Implementation (graph.py)
+The core of the project is the Graph class, which supports:
+
+Vertex and edge management
+Directed graph representation
+Efficient edge tracking
+Complex graph operations
+
+Main Features:
+
+Add/remove vertices and edges
+Check vertex and edge existence
+Calculate in-degree and out-degree
+Iterate through vertices and edges
+Deep copy graph
+Edge cost management
+
+2. Graph Algorithms (bfs.py, service.py)
+Two primary graph algorithms are implemented:
+->Breadth-First Search (BFS) Shortest Path
+
+    Finds the shortest path between two vertices
+Uses a queue-based approach
+Reconstructs the path using a parent dictionary
+
+->Lowest Cost Walk
+
+    Finds the minimum cost walk between two vertices
+Uses dynamic programming
+Handles potential negative cost cycles
+
+3. User Interface (ui.py)
+A comprehensive command-line interface that allows:
+
+Interactive graph manipulation
+File-based graph import/export
+Random graph generation
+Path finding
+Cost calculation
+
+4. Error Handling (exceptions.py)
+exception classes for:
+
+->VertexError: Handles vertex-related errors
+->EdgeError: Manages edge-related exceptions
+
+
+
+
+5.User Interface Menu Options
+
+1.Create a new graph
+2.Add vertex
+3.Remove vertex
+4Add edge
+5Remove edge
+6Get edge cost
+7Set edge cost
+8Count vertices
+9Count edges
+10.Check if vertex exists
+11.Check if edge exists
+12.Get vertex in-degree
+13.Get vertex out-degree
+14.List vertices
+15.List outbound edges
+16.List inbound edges
+17.Read graph from file
+18.Write graph to file
+19.Create random graph
+20.Find shortest path
+21.Find lowest cost walk
+22.Copy Graph
+23.Generate random graph
+'''
